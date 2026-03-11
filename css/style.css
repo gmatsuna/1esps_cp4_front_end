@@ -6,3 +6,27 @@
   font-weight: 500;
   font-style: medium;
 }
+
+body {
+  background-color: hsla(287, 44%, 21%, 0.418);
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  .menu {
+    display: flex;
+  }
+
+  .menu ul {
+    display: flex;
+    align-items: center;
+  }
+
+  #menu-link {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+}
