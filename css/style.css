@@ -126,7 +126,7 @@ main {
       width: 45%;
       height: 400px;
       border: 1px solid hsla(287, 44%, 21%, 0.418);
-      border-radius: 80px 0;
+      border-radius: 80px 0 80px 0;
       background-color: hsla(287, 44%, 21%, 0.418);
       transition: 0.5s;
       display: flex;

@@ -1,0 +1,55 @@
+@media (max-width:600px) {
+    header {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        .menu {
+            margin-top: 1em;
+        }
+    }
+
+    .container__heros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2em;
+
+        .container__heros-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            .heros__text {
+                width: 100%;
+
+                h2 {
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+            }
+
+            .heros__img {
+                width: 90%;
+                height: 30%;
+                margin-top: 3rem;
+
+                img {
+                    width: 70%;
+                    height: 80%;
+                }
+            }
+        }
+
+        .momentos {
+            order: 2;
+        }
+    }
+}
