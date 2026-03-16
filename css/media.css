@@ -52,4 +52,100 @@
             order: 2;
         }
     }
+    .container__downnloads {
+        margin: 16px 0 32px;
+    }
+
+    .downloads__conteudo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .downloads__titulo {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .downloads__artistas {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    .artistas-card {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artistas-card__img {
+        width: 100%;
+    }
+
+    .artistas-card__img img {
+        width: 55%;
+        max-width: 150px;
+    }
+
+    .artistas-card__texto {
+        margin-top: 16px;
+    }
+
+    .artistas-card__texto h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .artistas-card__texto p {
+        font-size: 14px;
+    }
+
+    footer {
+        margin: 8px 0 20px;
+    }
+
+    .footer__conteudo {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__links {
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        margin-bottom: 28px;
+        margin-top: 60px;
+        padding: 0 12px;
+    }
+
+    .footer-colunas__links {
+        gap: 12px;
+        text-align: center;
+    }
+
+    .footer-colunas__links a {
+        font-size: 11px;
+    }
+
+    .footer__social {
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 0;
+    }
+
+    .social {
+        font-size: 14px;
+    }
 }
