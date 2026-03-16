@@ -47,10 +47,6 @@
                 }
             }
         }
-
-        .momentos {
-            order: 2;
-        }
     }
     .container__downnloads {
         margin: 16px 0 32px;
@@ -147,5 +143,9 @@
 
     .social {
         font-size: 14px;
+    }
+
+    #momentos {
+        order: 2;
     }
 }
