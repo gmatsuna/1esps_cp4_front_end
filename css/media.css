@@ -145,7 +145,11 @@
         font-size: 14px;
     }
 
-    #momentos {
+    .heros__text {
+        order: 1;
+    }
+
+    .heros__img {
         order: 2;
     }
 }
